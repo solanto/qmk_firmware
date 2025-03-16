@@ -12,6 +12,7 @@
     "files.associations": {
         "*.h": "c",
         "*.c": "c",
+        "*.c-template": "c",
         "*.inc": "c",
         "*.cpp": "cpp",
         "*.hpp": "cpp",
@@ -24,11 +25,13 @@
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": false
     },
-    "python.formatting.provider": "yapf",
-    "[json]": {
-        "editor.formatOnSave": false
+    "[c]": {
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false
     },
     "clangd.arguments": [
         "--header-insertion=never"
-    ]
+    ],
+    "makefile.configureOnOpen": false
 }

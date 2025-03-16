@@ -25,6 +25,7 @@
 *.la
 *.stackdump
 *.sym
+compile_commands.json
 
 # QMK-specific
 api_data/v1
@@ -67,11 +68,11 @@ CMakeLists.txt
 *.code-workspace
 .stfolder
 .tags
-.vscode/c_cpp_properties.json
+# .vscode/c_cpp_properties.json
 .vscode/ipch/
 .vscode/last.sql
 .vscode/launch.json
-.vscode/tasks.json
+# .vscode/tasks.json
 .vscode/temp.sql
 tags
 
